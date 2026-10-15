@@ -155,6 +155,16 @@ this folder" or "Learning log: `docs/notes.md`", and follows them.
 It writes to your `CLAUDE.md` (only inside its `## Learned rules` section) and to files in
 your project. Like any skill, read it before installing; it is plain Markdown.
 
+### Exactly what it runs, sends, and fetches
+
+| Part | What it does |
+|---|---|
+| The skill (`skills/end-session/`) | Instructions only, no code. Claude reads and writes files in your project folder, and may run `git status` / `git rev-parse` (read-only) and `mkdir` / `mv` / `cp` for quarantine moves and backups |
+| The startup hook (`hooks/session-start.sh`) | Runs at session start and after `/clear`. It checks whether a `handover.md` exists in the folder you started in, and how old it is. If one exists, it prints a one-line instruction for Claude to resume from it. It never reads the file's contents |
+| Network | **None.** Nothing is sent or fetched anywhere. No telemetry, no external services |
+| Your credentials | Never read. The skill redacts anything that looks like a secret before writing a file |
+| `evals/` | A test suite for `claude plugin eval`. Not loaded when you use the plugin |
+
 ---
 
 ## How it fits with Claude Code's built-in features
