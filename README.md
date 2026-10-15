@@ -65,7 +65,8 @@ The plugin also installs a small startup hook: after `/clear`, the new session n
 
 ### By copying the folder
 
-Download this repo (Code, then Download ZIP) and copy `skills/end-session/` to:
+Get a copy of this repository's files from GitHub and copy the `skills/end-session/` folder
+to:
 
 | System | Destination |
 |---|---|

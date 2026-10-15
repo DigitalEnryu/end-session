@@ -12,7 +12,6 @@ description: >-
   not for other meanings of "hand over" (such as handing over a file), and not for
   questions about this skill.
 argument-hint: "[handover]"
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash, AskUserQuestion
 ---
 
 # end-session

@@ -1,5 +1,6 @@
 {
   "name": "end-session",
+  "version": "1.0.0",
   "description": "Wind down a Claude Code session: log what was learned, turn recurring mistakes into checked CLAUDE.md rules, tidy safely, and hand over to a fresh session.",
   "author": {
     "name": "Rueben Looi",
