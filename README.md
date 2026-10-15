@@ -173,8 +173,11 @@ your project. Like any skill, read it before installing; it is plain Markdown.
 end-session collects nothing. It has no server, no analytics, and no telemetry, and it
 makes no network requests. Everything it writes (learning logs, handover briefs, learned
 rules, quarantine copies) stays in your own project folders on your own machine, as plain
-files you can read, edit, or delete. Before writing, it redacts anything that looks like a
-password, key, or token. The author never receives any of your data.
+files you can read, edit, or delete. Those notes record what happened in your session, so
+they can contain anything you mentioned in it, such as a colleague's name or a deadline;
+the plugin does not seek out or collect personal data beyond that. Before writing, it
+redacts anything that looks like a password, key, or token. The author never receives any
+of your data.
 
 ## Support
 
