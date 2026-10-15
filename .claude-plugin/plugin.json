@@ -1,0 +1,12 @@
+{
+  "name": "end-session",
+  "description": "Wind down a Claude Code session: log what was learned, turn recurring mistakes into checked CLAUDE.md rules, tidy safely, and hand over to a fresh session.",
+  "author": {
+    "name": "Rueben Looi",
+    "url": "https://github.com/DigitalEnryu"
+  },
+  "homepage": "https://github.com/DigitalEnryu/end-session",
+  "repository": "https://github.com/DigitalEnryu/end-session",
+  "license": "MIT",
+  "keywords": ["session", "handover", "handoff", "learning-log", "claude-md", "memory"]
+}
