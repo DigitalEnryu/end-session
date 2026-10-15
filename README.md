@@ -168,6 +168,21 @@ your project. Like any skill, read it before installing; it is plain Markdown.
 
 ---
 
+## Privacy
+
+end-session collects nothing. It has no server, no analytics, and no telemetry, and it
+makes no network requests. Everything it writes (learning logs, handover briefs, learned
+rules, quarantine copies) stays in your own project folders on your own machine, as plain
+files you can read, edit, or delete. Before writing, it redacts anything that looks like a
+password, key, or token. The author never receives any of your data.
+
+## Support
+
+Questions, bugs, and ideas: open an issue at
+[github.com/DigitalEnryu/end-session/issues](https://github.com/DigitalEnryu/end-session/issues).
+
+---
+
 ## How it fits with Claude Code's built-in features
 
 | Built-in | How end-session differs |

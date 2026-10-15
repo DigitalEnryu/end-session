@@ -8,6 +8,9 @@
   },
   "homepage": "https://github.com/DigitalEnryu/end-session",
   "repository": "https://github.com/DigitalEnryu/end-session",
+  "documentationUrl": "https://github.com/DigitalEnryu/end-session#readme",
+  "supportUrl": "https://github.com/DigitalEnryu/end-session/issues",
+  "privacyPolicyUrl": "https://github.com/DigitalEnryu/end-session#privacy",
   "license": "MIT",
   "keywords": ["session", "handover", "handoff", "learning-log", "claude-md", "memory"]
 }
